@@ -127,7 +127,7 @@ export default function Features() {
           Why Choose BestProfessorAI?
         </Typography>
         <Typography variant="body1" paragraph textAlign={'center'}>
-          Our platform combines state-of-the-art AI technology with real student feedback to give you the most accurate and insightful professor reviews available. Whether you're planning your next semester or just curious about a specific professor, BestProfessorAI is your go-to resource for making informed academic decisions.
+          Our platform combines state-of-the-art AI technology with real student feedback to give you the most accurate and insightful professor reviews available. Whether you&apos;re planning your next semester or just curious about a specific professor, BestProfessorAI is your go-to resource for making informed academic decisions.
         </Typography>
         </Container>
       </Box>
@@ -139,7 +139,7 @@ export default function Features() {
             Simple. Consistent. Useful.
           </Typography>
           <Typography variant="body1" component="p" sx={{ maxWidth: '600px', margin: '0 auto' }}>
-            We’re here to improve your academic experience with an AI-powered platform for professor reviews. Our chatbot makes it easy to share and discover feedback, helping you make informed decisions and enhance your learning journey.
+            We&apos;re here to improve your academic experience with an AI-powered platform for professor reviews. Our chatbot makes it easy to share and discover feedback, helping you make informed decisions and enhance your learning journey.
           </Typography>
         </Box>
         <Box sx={{ textAlign: 'center', marginBottom: '1rem' }}>
