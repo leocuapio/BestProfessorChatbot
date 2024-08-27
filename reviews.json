@@ -1,0 +1,125 @@
+{
+    "reviews": [
+      {
+        "professor": "Dr. Emily Johnson",
+        "subject": "Computer Science",
+        "stars": 5,
+        "review": "Dr. Johnson is an amazing professor. Her lectures are clear, and she always makes time for her students."
+      },
+      {
+        "professor": "Prof. Michael Lee",
+        "subject": "Mathematics",
+        "stars": 4,
+        "review": "Prof. Lee is very knowledgeable, but sometimes his explanations can be a bit fast-paced."
+      },
+      {
+        "professor": "Dr. Sarah Miller",
+        "subject": "Biology",
+        "stars": 3,
+        "review": "Dr. Miller knows her stuff, but her exams are tough. Be prepared to study hard."
+      },
+      {
+        "professor": "Prof. John Smith",
+        "subject": "History",
+        "stars": 5,
+        "review": "Prof. Smith makes history come alive! His passion for the subject is contagious."
+      },
+      {
+        "professor": "Dr. Lisa Adams",
+        "subject": "Chemistry",
+        "stars": 2,
+        "review": "Dr. Adams is knowledgeable, but her lectures are hard to follow. The material is challenging."
+      },
+      {
+        "professor": "Prof. David Brown",
+        "subject": "Physics",
+        "stars": 4,
+        "review": "Prof. Brown is a great teacher, but his exams are tricky. Pay attention to the details."
+      },
+      {
+        "professor": "Dr. Karen Wilson",
+        "subject": "Psychology",
+        "stars": 5,
+        "review": "Dr. Wilson is a fantastic professor. She makes complex concepts easy to understand."
+      },
+      {
+        "professor": "Prof. James Davis",
+        "subject": "Economics",
+        "stars": 3,
+        "review": "Prof. Davis is knowledgeable, but his lectures can be a bit dry. You need to stay focused."
+      },
+      {
+        "professor": "Dr. Linda Martinez",
+        "subject": "Sociology",
+        "stars": 4,
+        "review": "Dr. Martinez is an excellent professor. She encourages critical thinking and class participation."
+      },
+      {
+        "professor": "Prof. Charles White",
+        "subject": "Philosophy",
+        "stars": 5,
+        "review": "Prof. White is inspiring. His lectures are thought-provoking and engaging."
+      },
+      {
+        "professor": "Dr. Patricia Taylor",
+        "subject": "English Literature",
+        "stars": 5,
+        "review": "Dr. Taylor is a brilliant professor. Her passion for literature shines through in every lecture."
+      },
+      {
+        "professor": "Prof. William Harris",
+        "subject": "Political Science",
+        "stars": 3,
+        "review": "Prof. Harris is well-informed, but his grading is strict. You need to work hard to get a good grade."
+      },
+      {
+        "professor": "Dr. Barbara Clark",
+        "subject": "Art History",
+        "stars": 4,
+        "review": "Dr. Clark has a deep knowledge of art history, but her exams can be challenging."
+      },
+      {
+        "professor": "Prof. Richard Lewis",
+        "subject": "Environmental Science",
+        "stars": 5,
+        "review": "Prof. Lewis is passionate about the environment. His lectures are informative and engaging."
+      },
+      {
+        "professor": "Dr. Jessica Walker",
+        "subject": "Anthropology",
+        "stars": 4,
+        "review": "Dr. Walker is a great professor, but her assignments are time-consuming. Be prepared to put in the effort."
+      },
+      {
+        "professor": "Prof. Daniel Hall",
+        "subject": "Business Administration",
+        "stars": 2,
+        "review": "Prof. Hall's lectures are not very engaging. The material is useful, but his delivery needs improvement."
+      },
+      {
+        "professor": "Dr. Nancy Young",
+        "subject": "Linguistics",
+        "stars": 5,
+        "review": "Dr. Young is an outstanding professor. She makes learning about languages fun and interesting."
+      },
+      {
+        "professor": "Prof. Brian King",
+        "subject": "Statistics",
+        "stars": 3,
+        "review": "Prof. King is knowledgeable, but his lectures can be confusing at times. You need to ask questions."
+      },
+      {
+        "professor": "Dr. Margaret Green",
+        "subject": "Geology",
+        "stars": 4,
+        "review": "Dr. Green is a great professor. She makes geology exciting, but her exams are tough."
+      },
+      {
+        "professor": "Prof. Robert Allen",
+        "subject": "Philosophy",
+        "stars": 5,
+        "review": "Prof. Allen's lectures are mind-opening. He challenges you to think critically about everything."
+      }
+    ]
+  }
+  
