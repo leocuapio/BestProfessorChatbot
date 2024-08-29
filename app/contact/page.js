@@ -25,7 +25,7 @@ export default function Docs() {
           </Button>
           <Box display="flex" justifyContent="center" alignItems="center" flexGrow={1} gap="2rem">
             <Link href="/features" variant="body1" color="textPrimary" sx={{ textDecoration: 'none' }}>
-              Feature
+              Features
             </Link>
             <Link href="/contact" variant="body1" color="textPrimary" sx={{ textDecoration: 'none' }}>
               Contact

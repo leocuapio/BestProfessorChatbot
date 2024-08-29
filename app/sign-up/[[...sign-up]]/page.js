@@ -5,7 +5,7 @@ import { SignUp } from "@clerk/nextjs";
 export default function SignUpPage() {
     return (
         <Container maxWidth="100vw">
-            <AppBar position="static" >
+<AppBar position="static" sx = {{background: 'black'}} >
                 <Toolbar>
                     <Typography variant="h6" sx={{ flexGrow: 1 }}>
                         BestProfessorAI

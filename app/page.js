@@ -36,50 +36,54 @@ export default function Home() {
     <div>
       {/* Header with Navigation */}
       <AppBar position="static" color="transparent" elevation={0}>
-        <Toolbar style={{ justifyContent: 'space-between' }}>
-        <Button
-          onClick={() => router.push('/')}
-          sx={{ textTransform: 'none', fontSize: '1.25rem', color: 'inherit' }}
-        >
-          BestProfessorAI
-        </Button>
-          <Box display="flex" justifyContent="center" alignItems="center" flexGrow={1} gap="2rem">
-            <Link href="/features" variant="body1" color="textPrimary" sx={{ textDecoration: 'none' }}>
-              Feature
-            </Link>
-            <Link href="/contact" variant="body1" color="textPrimary" sx={{ textDecoration: 'none' }}>
-              Contact
-            </Link>
-            <Link href="/about" variant="body1" color="textPrimary" sx={{ textDecoration: 'none' }}>
-              About
-            </Link>
-          </Box>
-          <Box display="flex" alignItems="center" gap="1rem">
-            {/* Show these buttons only when the user is signed out */}
-            <SignedOut>
-              <Button
-                variant="contained"
-                sx={{ backgroundColor: 'black', color: 'white' }}
-                href="/sign-in"
-              >
-                Login
-              </Button>
-              <Button
-                variant="contained"
-                sx={{ backgroundColor: 'black', color: 'white' }}
-                href="/sign-up"
-              >
-                Sign Up
-              </Button>
-            </SignedOut>
+  <Toolbar style={{ position: 'relative', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+    <Button
+      onClick={() => router.push('/')}
+      sx={{ textTransform: 'none', fontSize: '1.25rem', color: 'inherit' }}
+    >
+      BestProfessorAI
+    </Button>
 
-            {/* Show UserButton only when the user is signed in */}
-            <SignedIn>
-              <UserButton />
-            </SignedIn>
-          </Box>
-        </Toolbar>
-      </AppBar>
+    {/* Flex container for navigation links, centered using margin */}
+    <Box style={{ position: 'absolute', left: '50%', transform: 'translateX(-50%)' }}>
+      <Box display="flex" gap="2rem">
+        <Link href="/features" variant="body1" color="textPrimary" sx={{ textDecoration: 'none' }}>
+          Features
+        </Link>
+        <Link href="/contact" variant="body1" color="textPrimary" sx={{ textDecoration: 'none' }}>
+          Contact
+        </Link>
+        <Link href="/about" variant="body1" color="textPrimary" sx={{ textDecoration: 'none' }}>
+          About
+        </Link>
+      </Box>
+    </Box>
+
+    {/* UserButton and Sign-In/Sign-Up buttons */}
+    <Box display="flex" alignItems="center" gap="1rem">
+      <SignedOut>
+        <Button
+          variant="contained"
+          sx={{ backgroundColor: 'black', color: 'white' }}
+          href="/sign-in"
+        >
+          Login
+        </Button>
+        <Button
+          variant="contained"
+          sx={{ backgroundColor: 'black', color: 'white' }}
+          href="/sign-up"
+        >
+          Sign Up
+        </Button>
+      </SignedOut>
+      
+      <SignedIn>
+        <UserButton />
+      </SignedIn>
+    </Box>
+  </Toolbar>
+</AppBar>
 
       {/* Main Content */}
       <Container style={{ marginTop: '3rem', textAlign: 'center', paddingTop: '2rem' }}>
